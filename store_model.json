@@ -1,0 +1,17 @@
+{
+    "model_key": "tree-67a9f783-8849-48a1-8753-920596347eee",
+    "redisml_add_str": 
+    "ML.FOREST.ADD tree-67a9f783-8849-48a1-8753-920596347eee 0 . NUMERIC DEBTINC 33.776611328125 .l LEAF 0 .r NUMERIC DEBTINC 33.784217834472656 .rl LEAF 1 .rr NUMERIC DEBTINC 43.99281311035156 .rrl LEAF 0 .rrr LEAF 1 ",
+    "redisml_run_example": "ML.FOREST.RUN tree-67a9f783-8849-48a1-8753-920596347eee \"DEBTINC:12\" CLASSIFICATION",
+    "model_type": "classification",
+    "model_algorithm": "DecisionTree",
+    "model_inputs": {
+        "DEBTINC": "numeric: Debt to Income Ratio",
+        "None": "Only the single input for now."
+        },
+    "model_outputs": {
+        "BadLoan": "True for predicted loan default, False for prediced OK loan.", 
+        "None": "only the single output"
+        },
+    "model_description": "This is the plaintext description of the model, how it was trained, author, etc."
+}

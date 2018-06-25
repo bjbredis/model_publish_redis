@@ -1,0 +1,22 @@
+{
+    "model_key": "forest-c38fa7a6-1230-4413-8f69-1eaa094f9383",
+    "redisml_add_str": 
+    "ML.FOREST.ADD forest-c38fa7a6-1230-4413-8f69-1eaa094f9383 0 . NUMERIC DELINQ 1.5 .l NUMERIC DEBTINC 45.57856369018555 .ll NUMERIC LOAN 4100.0 .lll LEAF 1 .llr LEAF 0 .lr LEAF 1 .r LEAF 1 \nML.FOREST.ADD forest-c38fa7a6-1230-4413-8f69-1eaa094f9383 1 . NUMERIC NINQ 2.5 .l NUMERIC DEROG 1.5 .ll LEAF 0 .lr LEAF 1 .r NUMERIC DEROG 1.5 .rl LEAF 0 .rr LEAF 1 \nML.FOREST.ADD forest-c38fa7a6-1230-4413-8f69-1eaa094f9383 2 . NUMERIC DELINQ 1.5 .l NUMERIC CLAGE 179.80657958984375 .ll NUMERIC DEBTINC 33.77537155151367 .lll LEAF 0 .llr LEAF 0 .lr LEAF 0 .r LEAF 1 \nML.FOREST.ADD forest-c38fa7a6-1230-4413-8f69-1eaa094f9383 3 . NUMERIC DELINQ 1.5 .l NUMERIC DEBTINC 33.67848587036133 .ll LEAF 0 .lr NUMERIC DEROG 0.5 .lrl LEAF 0 .lrr LEAF 1 .r LEAF 1 ",
+    "redisml_run_example": "ML.FOREST.RUN forest-c38fa7a6-1230-4413-8f69-1eaa094f9383 \"DEBTINC:12\" CLASSIFICATION",
+    "model_type": "classification",
+    "model_algorithm": "RandomForest",
+    "model_inputs": {
+        "DEBTINC": "numeric: Debt to Income Ratio",
+        "DELINQ": "numeric: Number of days delinquint on existing loans",
+        "LOAN": "numeric: Dollar amount of requested loan",
+        "DEBTINC": "numeric: Debt to Income Ratio",
+        "DEROG": "numeric: Number of derogetory credit reports",
+        "CLAGE": "numeric: Age of existing credit lines (in years)",
+        "NINQ": "numeric: Number of recent credit inquiries"
+        },
+    "model_outputs": {
+        "BadLoan": "True for predicted loan default, False for prediced OK loan.", 
+        "None": "only the single output"
+        },
+    "model_description": "This is the plaintext description of the model, how it was trained, author, etc."
+}
