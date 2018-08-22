@@ -1,0 +1,15 @@
+{
+    "model_key": "forest-c38fa7a6-1230-4413-8f69-1eaa094f9383",
+    "model_inputs": {
+        "CLAGE": 12,
+        "CLNO": 1,
+        "DEBTINC":12,
+        "DELINQ": 0,
+        "DEROG": 0,
+        "LOAN": 100,
+        "NINQ": 0,
+        "MORTDUE": 0,
+        "VALUE": 100000,
+        "YOJ": 15
+    }
+}

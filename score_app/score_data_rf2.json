@@ -1,0 +1,14 @@
+{
+    "model_inputs": {
+        "CLAGE": 12,
+        "CLNO": 1,
+        "DEBTINC":12,
+        "DELINQ": 0,
+        "DEROG": 0,
+        "LOAN": 100,
+        "NINQ": 0,
+        "MORTDUE": 0,
+        "VALUE": 100000,
+        "YOJ": 15
+    }
+}
