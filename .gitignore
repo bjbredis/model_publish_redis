@@ -1,8 +1,0 @@
-.gitignore
-__pycache__
-bin
-include
-lib
-.DS_Store
-.Python
-pip-selfcheck.json
